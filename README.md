@@ -8,12 +8,16 @@ ini ya sak
     <img width="460" alt="Screenshot 2023-06-07 at 23 22 07" src="https://github.com/C23-DF02-DiskusAI-Dicoding-Indonesia/API-Serving/assets/132810595/afeab717-152e-4d08-9b8c-59a838b06a7c">
 </p>
 
-    The deployment flow in Google Cloud Platform (GCP) starts with the source code of the application or service that needs to be deployed. The source code then goes through the build, test, and packaging process using the Cloud Build service. The result of this process is a container image that is ready to be used.
-    The container image is temporarily stored in Cloud Storage before being uploaded to the Container Registry. Cloud Storage serves as a temporary storage for the files needed in the deployment process. After that, the container image is uploaded to the Container Registry, which is a secure storage for container images.
+The deployment flow in Google Cloud Platform (GCP) starts with the source code of the application or service that needs to be deployed. The source code then goes through the build, test, and packaging process using the Cloud Build service. The result of this process is a container image that is ready to be used.
+
+The container image is temporarily stored in Cloud Storage before being uploaded to the Container Registry. Cloud Storage serves as a temporary storage for the files needed in the deployment process. After that, the container image is uploaded to the Container Registry, which is a secure storage for container images.
     *Vertex AI Workbench can be used to manage machine learning experiments, train models, and deploy pipelines, with the results also being stored in Cloud Storage*
-    Once the container image is available in the Container Registry, the deployment process takes place in the Cloud Run service. Cloud Run is a serverless service that allows easy deployment of containers. The container image is fetched from the Container Registry and executed in the Cloud Run environment. Cloud Run automatically handles scaling, traffic management, and running containers as per the requests.
-    Lastly, the API Gateway can be used to provide a centralized API management layer. The API Gateway handles authentication, authorization, monitoring, and traffic policy settings for the APIs. With the API Gateway, users can access the deployed application or service using predefined endpoints.
-    With this flow, the source code goes through the build, packaging, and deployment process to Cloud Run via Cloud Build, Cloud Storage, Vertex AI Workbench (if applicable), and the Container Registry. Then, the application can be accessed through the API Gateway to provide centralized and managed access to the deployed application or service.
+
+Once the container image is available in the Container Registry, the deployment process takes place in the Cloud Run service. Cloud Run is a serverless service that allows easy deployment of containers. The container image is fetched from the Container Registry and executed in the Cloud Run environment. Cloud Run automatically handles scaling, traffic management, and running containers as per the requests.
+
+Lastly, the API Gateway can be used to provide a centralized API management layer. The API Gateway handles authentication, authorization, monitoring, and traffic policy settings for the APIs. With the API Gateway, users can access the deployed application or service using predefined endpoints.
+
+With this flow, the source code goes through the build, packaging, and deployment process to Cloud Run via Cloud Build, Cloud Storage, Vertex AI Workbench (if applicable), and the Container Registry. Then, the application can be accessed through the API Gateway to provide centralized and managed access to the deployed application or service.
 
 ## Cloud SQL Setup (MySQL)
 - Database version : MySQL 8.0.26
