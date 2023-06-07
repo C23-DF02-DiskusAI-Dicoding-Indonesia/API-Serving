@@ -23,3 +23,5 @@ The expected parameter format for the API is:
 ![image](https://github.com/C23-DF02-DiskusAI-Dicoding-Indonesia/API-Serving/assets/76771393/92b348f8-3051-4d1f-8504-a9cb1666d533)
 
 The returned result is a JSON object with the key 'suggestions' containing a list of suggestions. Each suggestion is a string that combines the 'query' with the found words in the model.
+
+[Trained Data](https://drive.google.com/drive/folders/1C6hTM9CHSrO-dM_goDOuH17QWHy__a-J?usp=drive_link)
