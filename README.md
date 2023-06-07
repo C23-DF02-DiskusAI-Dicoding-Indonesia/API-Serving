@@ -20,7 +20,14 @@ Lastly, the API Gateway can be used to provide a centralized API management laye
 
 With this flow, the source code goes through the build, packaging, and deployment process to Cloud Run via Cloud Build, Cloud Storage, Vertex AI Workbench (if applicable), and the Container Registry. Then, the application can be accessed through the API Gateway to provide centralized and managed access to the deployed application or service.
 
-## How to Deploy using Google Cloud Run (Command)
+## Cloud Run Service Setup
+- Region : asia-southeast2 (Jakarta)
+- Authentication : Allow unauthenticated invocations
+- Container port : macem macem
+- Capacity : 512 MiB - 2 GiB
+- Maximum concurrent requests per instance : 80
+
+## Deploy using Google Cloud Run (Command)
 
 Clone Source Repository
 ```bash
