@@ -67,9 +67,9 @@ Create Revision (example : concurrency)
 Make changes to the website
 ```bash
    #examples
-  cd ~/C23-DF02-DiskusAI-Dicoding-Indonesia/Chatbot-Modelling/Search Bar Suggestion/templates
+  cd ~/C23-DF02-DiskusAI-Dicoding-Indonesia/API-Serving/chatbot-serving/templates
 mv index.html.new index.html
- cat ~/C23-DF02-DiskusAI-Dicoding-Indonesia/Chatbot-Modelling/Search Bar Suggestion/templates/index.html
+ cat ~/C23-DF02-DiskusAI-Dicoding-Indonesia/API-Serving/chatbot-serving/templates/index.html
 ```
 Trigger a new Cloud Build with an updated image version
 ```bash
