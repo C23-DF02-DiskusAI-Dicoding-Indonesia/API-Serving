@@ -73,7 +73,7 @@ With this flow, the source code goes through the build, packaging, and deploymen
 ## Cloud Run Service Setup
 - Region : asia-southeast2 (Jakarta)
 - Authentication : Allow unauthenticated invocations
-- Container port : macem macem
+- Container port : chatbot-serving-integrated (2000), diskusai-app-fe-integrated (4000), searchbar-serving (5000)
 - Capacity : 512 MiB - 2 GiB
 - Maximum concurrent requests per instance : 80
 
@@ -145,3 +145,8 @@ Clean up
 ```bash
   gcloud container images delete gcr.io/${GOOGLE_CLOUD_PROJECT}/container name --quiet
 ```
+
+## The Result of Deployment
+- chatbot-serving-integrated : https://chatbot-serving-integrated-shx4zogvqq-et.a.run.app
+- diskusai-app-fe-integrated : https://diskusai-app-fe-integrated-shx4zogvqq-et.a.run.app
+- searchbar-serving : https://searchbar-serving-shx4zogvqq-et.a.run.app
