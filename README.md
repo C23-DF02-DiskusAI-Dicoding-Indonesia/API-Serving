@@ -3,6 +3,10 @@
 ## How to Setup Locally
 ini ya sak
 
+# Google Cloud Platform Flow
+<img width="460" alt="Screenshot 2023-06-07 at 23 22 07" src="https://github.com/C23-DF02-DiskusAI-Dicoding-Indonesia/API-Serving/assets/132810595/afeab717-152e-4d08-9b8c-59a838b06a7c">
+
+
 ## How to Deploy using Google Cloud Run
 
 Clone Source Repository
