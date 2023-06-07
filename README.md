@@ -1,7 +1,48 @@
 # Cloud Computing Path
 
 ## How to Setup Locally
-ini ya sak
+
+To set up the provided Flask application locally, including using a virtual environment and activating it, follow these steps:
+
+* Create a new directory for your project and navigate into it:
+```bash
+mkdir flask-app
+cd flask-app
+```
+* Create a virtual environment using venv:
+```bash
+python3 -m venv env
+```
+
+* Create a virtual environment using venv:
+On Windows:
+```bash
+env\Scripts\activate
+```
+On macOS/Linux:
+```bash
+source env/bin/activate
+```
+
+* Save the provided code in a file named app.py within the flask-app directory.
+* Install the required dependencies by running the following command:
+```bash
+pip install flask flask_cors tensorflow numpy
+```
+Start the Flask development server:
+```bash
+flask run
+```
+or
+```bash
+python app.py
+```
+
+You should see output similar to the following:
+```csharp
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+```
+* The Flask application is now running locally.
 
 ## Google Cloud Platform Flow
 <p align="center">
