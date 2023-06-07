@@ -1,8 +1,7 @@
 # Chatbot Serving
-
+```bash
 This code implements a serving API for a chatbot. Let's break it down:
-,,,
-bash
+
 The code imports necessary modules such as Flask, render_template, request, jsonify, flask_cors, tensorflow, tensorflow_hub, and json.
 
 An instance of the Flask application is created with Flask(__name__), and CORS (Cross-Origin Resource Sharing) is enabled for the Flask application using CORS(app).
@@ -30,7 +29,7 @@ The Flask application is run with app.run(host='0.0.0.0', port=2000) to start th
 Overall, this code sets up an API that accepts a question, calculates the similarity between the question and pre-defined modules using the Universal Sentence Encoder, and returns the top module titles and links as a combined HTML paragraph in the API response.
 
 Note: The parameters used in this code are the default parameters for Flask and TensorFlow. You can modify them as per your requirements, such as changing the host and port for the API.
-
+```
 
 ## Screenshots
 
