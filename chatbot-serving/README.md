@@ -1,5 +1,8 @@
 # Chatbot Serving
-
+Docker
+```bash
+docker pull antsaka/chatbot-serving:integrated
+```
 This code implements a serving API for a chatbot. Let's break it down:
 
 * The code imports necessary modules such as Flask, render_template, request, jsonify, flask_cors, tensorflow, tensorflow_hub, and json.
