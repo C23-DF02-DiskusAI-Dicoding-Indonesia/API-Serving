@@ -1,4 +1,3 @@
-# API-Serving
 # Cloud Computing Path
 
 ## How to Setup Locally
