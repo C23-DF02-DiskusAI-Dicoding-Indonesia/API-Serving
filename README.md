@@ -20,13 +20,13 @@ Create Docker container with Cloud Build
 ```bash
   gcloud services enable cloudbuild.googleapis.com
   
-  Start Build Process
+  #Start Build Process
   gcloud builds submit --tag gcr.io/${GOOGLE_CLOUD_PROJECT}/docker name .
   
-  Deploy container to Cloud Run
+  #Deploy container to Cloud Run
   gcloud run deploy --image=gcr.io/${GOOGLE_CLOUD_PROJECT}/docker name --platform managed
   
-  Verify Deployment
+  #Verify Deployment
   gcloud run services list
 ```
 Create Revision of Concurrency
@@ -52,7 +52,7 @@ Redeploy
 ```bash
   gcloud run deploy --image=gcr.io/${GOOGLE_CLOUD_PROJECT}/containe name:2.0.0 --platform managed
   
-  Verify Deployment
+  #Verify Deployment
   gcloud run services describe monolith --platform managed
 ```
 Clean up
