@@ -27,6 +27,13 @@ With this flow, the source code goes through the build, packaging, and deploymen
 - Capacity : 512 MiB - 2 GiB
 - Maximum concurrent requests per instance : 80
 
+## Cloud SQL Setup (MySQL)
+- Database version : MySQL 8.0.26
+- Region : asia-southeast2 (Jakarta)
+- Machine type : 1 vCPU, 0.614 GB
+- Storage type : SSD (100 GB)
+- Availability : Multiple zones
+
 ## Deploy using Google Cloud Run (Command)
 
 Clone Source Repository
