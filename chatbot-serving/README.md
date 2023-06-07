@@ -1,5 +1,4 @@
 # Chatbot Serving
-Docker
 ```bash
 docker pull antsaka/chatbot-serving:integrated
 ```
