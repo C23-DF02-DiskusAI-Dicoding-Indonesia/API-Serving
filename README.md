@@ -38,7 +38,7 @@ With this flow, the source code goes through the build, packaging, and deploymen
 
 Clone Source Repository
 ```bash
-  cd ~ git clone https://github.com/antsaka/company-based-capstone-dicoding-df2.git
+  cd ~ git clone https://github.com/antsaka/C23-DF02-DiskusAI-Dicoding-Indonesia
   cd ~/C23-DF02-DiskusAI-Dicoding-Indonesia
   ./setup.sh
 ```
@@ -66,9 +66,10 @@ Create Revision (example : concurrency)
 ```
 Make changes to the website
 ```bash
-  cd ~/C23-DF02-DiskusAI-Dicoding-Indonesia/Machine Learning Exploration/Search Bar Suggestion/templates
+   #examples
+  cd ~/C23-DF02-DiskusAI-Dicoding-Indonesia/Chatbot-Modelling/Search Bar Suggestion/templates
 mv index.html.new index.html
- cat ~/C23-DF02-DiskusAI-Dicoding-Indonesia/Machine Learning Exploration/Search Bar Suggestion/templates/index.html
+ cat ~/C23-DF02-DiskusAI-Dicoding-Indonesia/Chatbot-Modelling/Search Bar Suggestion/templates/index.html
 ```
 Trigger a new Cloud Build with an updated image version
 ```bash
