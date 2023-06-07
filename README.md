@@ -60,8 +60,9 @@ Create Docker container with Cloud Build
   #Verify Deployment
   gcloud run services list
 ```
-Create Revision (example : concurrency)
+Create Revision 
 ```bash
+  #example : concurrency
   gcloud run deploy --image=gcr.io/${GOOGLE_CLOUD_PROJECT}/container name --platform managed --concurrency (insert number of concurrency)
 ```
 Make changes to the website
