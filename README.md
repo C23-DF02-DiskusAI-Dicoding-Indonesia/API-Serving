@@ -34,6 +34,16 @@ With this flow, the source code goes through the build, packaging, and deploymen
 - Capacity : 512 MiB - 2 GiB
 - Maximum concurrent requests per instance : 80
 
+## Deploy using Google Cloud Run (Manual)
+- Click 'Create Service'
+- Import 'Container Image URL'
+- Select Region to 'asia-southeast2 (Jakarta)'
+- Choose 'CPU is only allocated during request processing'
+- 'Allow unauthenticated invocations' for authentication
+- Click 'Container, Networking, Security' and change the 'container port' based on the container image
+- Adjust the 'Capacity' according to the size of the container image
+- Click 'Create'
+
 ## Deploy using Google Cloud Run (Command)
 
 Clone Source Repository
