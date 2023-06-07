@@ -12,7 +12,7 @@ The deployment flow in Google Cloud Platform (GCP) starts with the source code o
 
 The container image is temporarily stored in Cloud Storage before being uploaded to the Container Registry. Cloud Storage serves as a temporary storage for the files needed in the deployment process. After that, the container image is uploaded to the Container Registry, which is a secure storage for container images.
 
-    *Vertex AI Workbench can be used to manage machine learning experiments, train models, and deploy pipelines, with the results also being stored in Cloud Storage*
+*Vertex AI Workbench can be used to manage machine learning experiments, train models, and deploy pipelines, with the results also being stored in Cloud Storage*
 
 Once the container image is available in the Container Registry, the deployment process takes place in the Cloud Run service. Cloud Run is a serverless service that allows easy deployment of containers. The container image is fetched from the Container Registry and executed in the Cloud Run environment. Cloud Run automatically handles scaling, traffic management, and running containers as per the requests.
 
