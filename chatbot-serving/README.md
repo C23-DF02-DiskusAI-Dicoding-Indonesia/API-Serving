@@ -43,6 +43,5 @@ The resulting parameter in the JSON response is as follows:
 Each paragraph within combined_paragraph consists of three HTML elements: Module, Title, and Link. The module and title information are enclosed in "p" tags, while the discussion link is displayed within an "a" tag.
 
 The resulting parameter in the DiskusAI is as follows:
-<p align="center">
-<img ![image](https://github.com/C23-DF02-DiskusAI-Dicoding-Indonesia/API-Serving/assets/76771393/49e94ed3-253a-4571-9c39-31b6a689abef)>
-</p>
+![image](https://github.com/C23-DF02-DiskusAI-Dicoding-Indonesia/API-Serving/assets/76771393/49e94ed3-253a-4571-9c39-31b6a689abef)>
+
