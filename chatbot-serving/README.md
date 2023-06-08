@@ -41,3 +41,7 @@ The resulting parameter in the JSON response is as follows:
 
 * combined_paragraph: This parameter contains an HTML paragraph that combines information from the top relevant modules based on the given question. The paragraph includes module names, titles, and discussion links. These modules are the most similar ones to the question based on the calculated cosine similarity using the Universal Sentence Encoder. The paragraph can be used to display the chatbot's prediction results to the user.
 Each paragraph within combined_paragraph consists of three HTML elements: Module, Title, and Link. The module and title information are enclosed in "p" tags, while the discussion link is displayed within an "a" tag.
+
+The resulting parameter in the DiskusAI is as follows:
+![image](https://github.com/C23-DF02-DiskusAI-Dicoding-Indonesia/API-Serving/assets/76771393/49e94ed3-253a-4571-9c39-31b6a689abef)
+
