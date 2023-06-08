@@ -44,5 +44,5 @@ Each paragraph within combined_paragraph consists of three HTML elements: Module
 
 The resulting parameter in the DiskusAI is as follows:
 <p align="center">
-![image](https://github.com/C23-DF02-DiskusAI-Dicoding-Indonesia/API-Serving/assets/76771393/49e94ed3-253a-4571-9c39-31b6a689abef)
+<img ![image](https://github.com/C23-DF02-DiskusAI-Dicoding-Indonesia/API-Serving/assets/76771393/49e94ed3-253a-4571-9c39-31b6a689abef)>
 </p>
