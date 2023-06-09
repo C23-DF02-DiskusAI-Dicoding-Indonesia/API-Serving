@@ -63,6 +63,14 @@ Lastly, the API Gateway can be used to provide a centralized API management laye
 
 With this flow, the source code goes through the build, packaging, and deployment process to Cloud Run via Cloud Build, Cloud Storage, Vertex AI Workbench (if applicable), and the Container Registry. Then, the application can be accessed through the API Gateway to provide centralized and managed access to the deployed application or service.
 
+## Create IAM (roles)
+- Choose IAM & Admin in on navigation menu 
+- Click the "Add" button
+- Choose Create a new role
+- Provide a name and description for the role
+- Select the desired permissions for the role
+- Click Create to create the role.
+
 ## Cloud SQL Setup (MySQL)
 - Database version : MySQL 8.0.26
 - Region : asia-southeast2 (Jakarta)
