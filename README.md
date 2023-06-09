@@ -163,6 +163,6 @@ Clean up
 ```
 
 ## The Result of Deployment
-- chatbot-serving-integrated : https://chatbot-serving-integrated-shx4zogvqq-et.a.run.app
-- diskusai-app-fe-integrated : https://diskusai-app-fe-integrated-shx4zogvqq-et.a.run.app
+- chatbot-serving : https://chatbot-serving-integrate-shx4zogvqq-et.a.run.app
+- diskusai-app (frontend) : https://diskusai-app-shx4zogvqq-et.a.run.app/
 - searchbar-serving : https://searchbar-serving-shx4zogvqq-et.a.run.app
