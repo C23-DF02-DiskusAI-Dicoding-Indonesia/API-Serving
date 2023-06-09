@@ -70,6 +70,14 @@ With this flow, the source code goes through the build, packaging, and deploymen
 - Storage type : SSD (100 GB)
 - Availability : Multiple zones
 
+## Create Cloud Storage
+- Choose Cloud Storage on navigation menu 
+- Click Create Bucket 
+- Name your bucket as you wish 
+- Location : Region and choose asia-southeast2 (Jakarta) 
+- Create the Bucket
+- Upload the image to the bucket
+
 ## Cloud Run Service Setup
 - Region : asia-southeast2 (Jakarta)
 - Authentication : Allow unauthenticated invocations
