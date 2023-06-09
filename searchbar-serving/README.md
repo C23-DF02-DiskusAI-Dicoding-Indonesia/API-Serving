@@ -19,9 +19,9 @@ Overall, the model serves as an API for generating suggestions based on user que
 
 ## Screenshots
 The expected parameter format for the API is:
-
+![image](https://github.com/C23-DF02-DiskusAI-Dicoding-Indonesia/API-Serving/assets/76771393/22ddfe79-9e14-498d-9180-8f178c233d3a)
+The returned result is a JSON object with the key 'suggestions' containing a list of suggestions. Each suggestion is a string that combines the 'query' with the found words in the model.
 ![image](https://github.com/C23-DF02-DiskusAI-Dicoding-Indonesia/API-Serving/assets/76771393/e140b88d-6568-4d62-9168-6cb107f251a1)
 
-The returned result is a JSON object with the key 'suggestions' containing a list of suggestions. Each suggestion is a string that combines the 'query' with the found words in the model.
 
 
